@@ -45,16 +45,26 @@ For beginners, I'd recommend using the desktop image, but if you know what you'r
 
 SSH (Remote Connection)
 -----------------------
+Setup a remote connection to the raspberry pi.
 
-0. Run updates
+1. Run updates
 `sudo apt-get update`
 
-1. Start the SSH server
+2. Start the SSH server
 `sudo raspi-config` -> Interface Options -> SSH -> enable
 
-2. From your main computer or laptop you want to connect to the raspberry pi, you should be on the same wifi or network. Then you can run:
+3. From your main computer or laptop you want to connect to the raspberry pi, you should be on the same wifi or network. Then you can run:
 `ssh <username>@<domain.local>` for me, this is `ssh richard@richardpi.local`
-   
+
+ZSH Shell
+---------
+Upgrade the raspberry pi shell.
+
+1. Install ZSH
+`sudo apt-get install zsh`
+
+2. Install 'oh my zsh'
+`sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
 
 
 
