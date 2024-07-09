@@ -17,7 +17,9 @@ Table of Contents
 2. [Raspbian OS](#Raspbian)
 3. [SSH (Remote Connection)](#SSH)
 
+
 <a name="Hardware"/>
+
 Hardware
 --------
 I'd recommend one starter kit so that you can set up SSH and network/wifi more easily. It should include:
